@@ -1,6 +1,6 @@
 # TREINAMENTO ONLINE 
 
-Esse repositório reúne treinamento e observações das aulas online. Desse modo, não há uma ordem ou objeto em específico. 
+Esse repositório reúne treinamento e observações das aulas online. Desse modo, não há uma ordem ou objetivo em específico. 
 
 # HACKERSEC ACADEMY 
 

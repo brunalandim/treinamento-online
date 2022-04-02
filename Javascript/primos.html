@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primos</title>
+
+<style>
+    h1{
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 2.2em;
+        color: blueviolet;
+        text-align: center;
+    }
+
+    #scan1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 6em;
+        text-align: left;
+
+    }
+
+    #resultado{
+        width: 10%;
+    }
+    #result_primer{
+        margin-top: 5px;
+    }
+
+</style>
+
+
+</head>
+    <body>
+    
+    <section id="scan1">
+        <h1>Números primos</h1>
+
+        <h2>coloca os números aqui</h2>
+        <div id="number1"> <input type="text" id="number-pr"></div>
+        <output id="resultado"> </output>
+        <button id="result_primer">Ver</button>
+    </section>
+    
+    <script>
+// let number_pr =document.getElementById('number-pr').innerHTML;
+
+document.getElementById('result_primer').onclick = function (){
+        let number_primo = document.getElementById('number-pr').value;
+
+        if (number_primo % 2 == 1 || number_primo == 2){
+
+            document.getElementById('resultado').innerHTML ="o número " + number_primo + " é primo";
+            console.log("o número " + number_primo + " é primo");
+
+        } 
+        else{
+            document.getElementById('resultado').innerHTML = "o número " + number_primo + " não é primo"; 
+            console.log("o número " + number_primo + " não é primo"); 
+        }
+        
+        // console.log('o número é ' + number_primo);
+}
+
+    </script>
+    </body>
+    </html>
